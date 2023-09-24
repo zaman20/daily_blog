@@ -3,6 +3,13 @@
 body h1,h2,h3,h4,h5,h6,a, p{
     font-family: 'Montserrat', sans-serif;
 }
+body a{
+    text-decoration: none;
+    color: #333;
+}
+img{
+    width: 100%;
+}
 .header-bg{
     width: 100%;
   background: linear-gradient(90deg,red,blue,orange,green);
@@ -138,6 +145,7 @@ body h1,h2,h3,h4,h5,h6,a, p{
     line-height: 19px;
     margin-top: 15px;
     font-weight: 700;
+    transition: 0.3s;
 }
 .box-content p{
     font-size: 16px;
@@ -262,4 +270,37 @@ input.search-btn {
     background: #2cb2f7;
     color: white;
     border-radius: 5px;
+}
+.box-content h2:hover, .entry-box h2:hover{
+    color: rgb(19, 132, 252);
+}
+p.post-meta {
+    font-size: 14px;
+    color: #a59a9a;
+}
+.post-image {
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 25px;
+    margin-top: 30px;
+}
+.post-text {
+    color: gray;
+    font-size: 15px;
+    line-height: 25px;
+}
+.share-box{
+    margin-top: 45px;
+}
+.share-box ul li{
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: rgb(33, 173, 254);
+}
+.share-box ul li a{
+    color: #fff;
+    font-size: 16px;
+}
+.share-box ul li a i{
+    margin-right: 10px;
 }
