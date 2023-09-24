@@ -8,4 +8,11 @@ $(document).ready(function(){
         $('.search-box').removeClass('search-show');
         $('.header-search i').toggle();
       });
+
+  $('.mobile-bar').on('click',function(){
+    $('.mobile-menu').addClass('mobile-menu-show');
+  });
+  $('.menu-close').on('click',function(){
+    $('.mobile-menu').removeClass('mobile-menu-show');
+  });
 });
