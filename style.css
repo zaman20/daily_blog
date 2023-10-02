@@ -237,7 +237,7 @@ img{
 .search-box{
     margin-bottom: 30px;
     background-color: #feffff;
-    box-shadow: 0 0 5px #eef4f4;
+    box-shadow: 0px 3px 0px 5px #eef4f4;
     position: absolute;
     z-index: 9;
     width: 100%;

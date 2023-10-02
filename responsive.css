@@ -1,0 +1,15 @@
+@media only screen and (min-width:200px) and (max-width:990px) {
+    .main-website {width: 90%;margin: 0 auto;}
+    .header-logo{width: 27%;margin-left: 56px;}
+    .header-menu{display: none;}
+    .header-search{width: 33%;}
+    .entry-post{margin: 0 auto;}
+    .entry-two{margin-top: 30px;}
+    .post-box{width: 95%;}
+    .sidebar{margin-top: 40px;}
+    .sidebar-box{float:left;margin-left: 13px;}
+    .footer-text{width: 296px;}
+    .search-content{width: 90%;}
+    input.search-text{width: 100%;}
+    input.search-btn{margin-left: -61px;}
+}
