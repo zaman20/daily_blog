@@ -1,8 +1,9 @@
 @media only screen and (min-width:200px) and (max-width:990px) {
     .main-website {width: 90%;margin: 0 auto;}
-    .header-logo{width: 27%;margin-left: 56px;}
+    .header-logo{width: 35%;margin-left: 56px;}
+    .header-logo img{margin-left: 20px;}
     .header-menu{display: none;}
-    .header-search{width: 33%;}
+    .header-search{width: 18%;}
     .entry-post{margin: 0 auto;}
     .entry-two{margin-top: 30px;}
     .post-box{width: 95%;}
@@ -12,6 +13,8 @@
     .search-content{width: 90%;}
     input.search-text{width: 100%;}
     input.search-btn{margin-left: -61px;}
+    #header{overflow: hidden;}
+    .header-content{width: 100%;}
 }
 
 @media only screen and (min-width:200px) and (max-width:770px){
@@ -29,5 +32,8 @@
     .footer-menu{margin-left: -13px;}
     .copyright, .dev-text{font-size: 10px;margin-top: -14px;}
     .post-box{margin-left: 10px;}
+    .header-logo{width: 60%;margin-left: 23px;}
+    .header-logo img{margin-top: -76px;margin-left: 37px;}
+    .header-search{width: 11%;}
 
 }
