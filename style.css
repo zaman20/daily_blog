@@ -241,8 +241,7 @@ img{
     position: absolute;
     z-index: 9;
     width: 100%;
-    top: 64px;
-    left: lef;
+    top: 95px;
     left: 0;
     height: 79px;
     padding-bottom: 30px;
@@ -357,3 +356,4 @@ p.post-meta {
   .mobile-menu ul li:hover{
     background-color: #417eed;
   }
+  i.fa-solid.fa-xmark.close-icon{display:none;}

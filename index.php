@@ -3,15 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog website</title>
-    <!-- font icon -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
-    <!-- bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-    <!-- main -->
-    <link rel="stylesheet" href="style.css">
-    <!-- responsive css -->
-    <link rel="stylesheet" href="responsive.css">
+    <title><?php bloginfo('title');?></title>
+    <?php wp_head();?>
 </head>
 <body>
     <section id="header">
@@ -23,7 +16,7 @@
                                 <div class="header-logo">
                                     <i class="fa-solid fa-bars mobile-bar"></i>
                                     <a href="">
-                                        <img src="img/Health_and_Fitness__2_-removebg-preview.png" alt="logo img">
+                                        <img src="<?php echo get_template_directory_uri();?>/img/Health_and_Fitness__2_-removebg-preview.png" alt="logo img">
                                     </a>
                                 </div>
                                 <div class="header-menu">
@@ -61,7 +54,7 @@
             <div class="row">
                 <div class="col-lg-6 col-md-12 col-sm-12">
                     <a href="single.html">
-                    <div class="entry-post" style="background: url('img/auto-2179220.webp') no-repeat;">
+                    <div class="entry-post" style="background: url('<?php echo get_template_directory_uri();?>/img/auto-2179220.webp') no-repeat;">
                         <h2>The Titel</h2>
                         <p>Date:30 June 2023</p>
                     </div>
@@ -70,13 +63,13 @@
                 <div class="col-lg-6 col-md-12 col-sm-12">
                     <div class="entry-two">
                         <div class="entry-box">
-                            <img src="img/house-3963987.webp" alt="">
+                            <img src="<?php echo get_template_directory_uri();?>/img/house-3963987.webp" alt="">
                             <a href="single.html"><h2>
                                 Don’t Get Caught Unprotected: Learn About Property Insurance
                             </h2></a>
                         </div>
                         <div class="entry-box">
-                            <img src="img/key-2323278.webp" alt="">
+                            <img src="<?php echo get_template_directory_uri();?>/img/key-2323278.webp" alt="">
                             <a href="single.html"><h2>
                                 Protect Your Assets: Get the Right Property Insurance
                             </h2></a>
@@ -91,7 +84,7 @@
                     <h3 class="title">Read More</h3>
                     <div class="box">
                         <div class="box-img">
-                            <img src="img/auto-2179220.webp" alt="">
+                            <img src="<?php echo get_template_directory_uri();?>/img/auto-2179220.webp" alt="">
                         </div>
                         <div class="box-content">
                             <a href="single.html">
@@ -103,7 +96,7 @@
                     </div>
                     <div class="box">
                         <div class="box-img">
-                            <img src="img/auto-2179220.webp" alt="">
+                            <img src="<?php echo get_template_directory_uri();?>/img/auto-2179220.webp" alt="">
                         </div>
                         <div class="box-content">
                             <h2>Having car insurance is a necessity in many states and can be a …</h2>
@@ -113,7 +106,7 @@
                     </div>
                     <div class="box">
                         <div class="box-img">
-                            <img src="img/auto-2179220.webp" alt="">
+                            <img src="<?php echo get_template_directory_uri();?>/img/auto-2179220.webp" alt="">
                         </div>
                         <div class="box-content">
                             <h2>Having car insurance is a necessity in many states and can be a …</h2>
@@ -153,7 +146,7 @@
                 <div class="row">
                     <div class="col-lg-12 footer-content">
                        <div class="footer-logo">
-                            <img src="img/Health_and_Fitness__2_-removebg-preview.png" alt="">
+                            <img src="<?php echo get_template_directory_uri();?>/img/Health_and_Fitness__2_-removebg-preview.png" alt="">
                        </div>
                        <div class="footer-text px-3">
                             <h2>About Us</h2>
@@ -185,7 +178,7 @@
     </section>
     <div class="mobile-menu">
         <div class="header-part">
-            <img src="img/Health_and_Fitness__2_-removebg-preview.png" alt="logo img">
+            <img src="<?php echo get_template_directory_uri();?>/img/Health_and_Fitness__2_-removebg-preview.png" alt="logo img">
             <i class="fa-regular fa-circle-xmark menu-close"></i>
         </div>
         <ul>
@@ -195,8 +188,8 @@
         </ul>
     </div>
 
-    <script src="js/jquery-3.6.4.min.js"></script>
-    <script src="js/myscript.js"></script>
-    
+    <script src="<?php echo get_template_directory_uri();?>/js/jquery-3.6.4.min.js"></script>
+    <script src="<?php echo get_template_directory_uri();?>/js/myscript.js"></script>
+    <?php wp_footer();?>
 </body>
 </html>
